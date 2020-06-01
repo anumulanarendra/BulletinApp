@@ -24,7 +24,7 @@ Please build a single page Bulletin board application that lets users Post and a
 Typescript, Webpack, React, Redux, Jest, Enzyme
 
 ## Clean Architecture
-![Alt Clean architecture](/_readme/clean-architecture.png)
+![Alt Clean architecture](/readme/clean-architecture.png)
 As with many architectures, the primary purpose of a clean architecture is to separate concerns. Divide the hierarchy according to each interest, design domain-centric rather than detailed implementation, and make sure that the internal area does not depend on external elements such as the framework or database UI.
   
 * Distinguish between detailed implementation areas and domain areas.
@@ -34,7 +34,7 @@ As with many architectures, the primary purpose of a clean architecture is to se
 
 
 ## Communitaction Flow
-![Alt Communitaction Flow](/_readme/communication-flow-v4.png)
+![Alt Communitaction Flow](/readme/communication-flow-v4.png)
 In simple diagram, it is as above.
 
 ## Directory Structure
