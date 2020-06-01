@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@adapters/*": ["src/adapters/*"],
+      "@domains/*": ["src/domains/*"],
+      "@frameworks/*": ["src/frameworks/*"],
+      "@interfaces/*": ["src/interfaces/*"]
+    }
+  },
+  "include": [
+    "./test/**/*",
+    "./src/**/*",
+    "@types"
+  ]
+}
